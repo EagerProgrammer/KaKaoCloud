@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트로 출력하기</title>
+    <script>
+        //브라우저 뷰포트에 출력하는 방법//
+        document.write("안녕하세");
+        //대화상자로 출력//
+        //alert("대화상자");
+        //검사 또는 개발자 도구 콘솔에서 확인//
+        one = 100;
+        function get(){ 
+            console.log(one);
+            two = 200;
+            let three = 300;
+        }
+        console.log(one);
+        get();
+        console.log(two);//키워드 없이 이름을 만들어서 함수 호출이 된 뒤에는 글로벌이 되어버린다.
+        console.log(three);//키워드와 함께 만들어서 자신의 영역에서만 사용이 가능
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
